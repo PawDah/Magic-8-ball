@@ -31,12 +31,14 @@ body {
 .ball-img {
 	position: relative;
 	height: 250px;
+    
 }
 .ball-img img {
 	position: absolute;
 	top: 30px;
 	left: 300px;
 	width: 300px;
+    cursor: pointer;
 }
 
 .question-area {
@@ -55,12 +57,12 @@ input {
 	padding: 10px;
 	margin-top: 30px;
 	border-radius: 8px;
-
 	border: 1px solid #333;
 	font-size: 20px;
 }
 .answer {
 	margin-top: 30px;
+    font-size: 26px;
 }
 .error {
 	font-weight: bold;
